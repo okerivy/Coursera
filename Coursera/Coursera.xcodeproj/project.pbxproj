@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B8E46701BBAE0DC0081DCCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E466F1BBAE0DC0081DCCB /* AppDelegate.swift */; };
 		7B8E46721BBAE0DC0081DCCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E46711BBAE0DC0081DCCB /* ViewController.swift */; };
-		7B8E46751BBAE0DC0081DCCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E46731BBAE0DC0081DCCB /* Main.storyboard */; };
 		7B8E46771BBAE0DC0081DCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */; };
-		7B8E467A1BBAE0DC0081DCCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E46781BBAE0DC0081DCCB /* LaunchScreen.storyboard */; };
 		7B8E46851BBAE0DC0081DCCB /* CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E46841BBAE0DC0081DCCB /* CourseraTests.swift */; };
 		7B8E46901BBAE0DC0081DCCB /* CourseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E468F1BBAE0DC0081DCCB /* CourseraUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		7B8E466C1BBAE0DC0081DCCB /* Coursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E466F1BBAE0DC0081DCCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8E46711BBAE0DC0081DCCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B8E46741BBAE0DC0081DCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B8E46791BBAE0DC0081DCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B8E467B1BBAE0DC0081DCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B8E46801BBAE0DC0081DCCB /* CourseraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E46841BBAE0DC0081DCCB /* CourseraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				7B8E466F1BBAE0DC0081DCCB /* AppDelegate.swift */,
 				7B8E46711BBAE0DC0081DCCB /* ViewController.swift */,
-				7B8E46731BBAE0DC0081DCCB /* Main.storyboard */,
 				7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */,
-				7B8E46781BBAE0DC0081DCCB /* LaunchScreen.storyboard */,
 				7B8E467B1BBAE0DC0081DCCB /* Info.plist */,
 			);
 			path = Coursera;
@@ -228,9 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B8E467A1BBAE0DC0081DCCB /* LaunchScreen.storyboard in Resources */,
 				7B8E46771BBAE0DC0081DCCB /* Assets.xcassets in Resources */,
-				7B8E46751BBAE0DC0081DCCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +283,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		7B8E46731BBAE0DC0081DCCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B8E46741BBAE0DC0081DCCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B8E46781BBAE0DC0081DCCB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B8E46791BBAE0DC0081DCCB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		7B8E46921BBAE0DC0081DCCB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -347,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -396,7 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = Coursera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okerivy.Coursera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,7 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = Coursera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okerivy.Coursera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +458,7 @@
 				7B8E46961BBAE0DC0081DCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8E46971BBAE0DC0081DCCB /* Build configuration list for PBXNativeTarget "CourseraTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +467,7 @@
 				7B8E46991BBAE0DC0081DCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8E469A1BBAE0DC0081DCCB /* Build configuration list for PBXNativeTarget "CourseraUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +476,7 @@
 				7B8E469C1BBAE0DC0081DCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
