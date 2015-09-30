@@ -36,12 +36,24 @@ class MainViewController: UITabBarController {
     /// 添加所有的子控制器
     private func addChildViewControllers() {
         
+        //加载 json
+        let path = NSBundle.mainBundle().pathForResource("MainVCSetting.json", ofType: nil)!
+        let data = NSData(contentsOfFile: path)!
+        // 反序列化
+        do {
+            let array = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.AllowFragments)
+            
+            // 在遍历数组的时候,必须指明数组中包含对象的类型,包括字典的格式
+            for dict in array as! [[String: String]]{
+                print(dict)
+                addChildViewController(dict["vcName"]!, title: dict["title"]!, imageName: dict["imageName"]!)
+            }
+            
+        } catch(_) {
+            
+        }
         
-        addChildViewController("HomeTableViewController", title: "首页", imageName: "tabbar_home")
-        addChildViewController("MessageTableViewController", title: "消息", imageName: "tabbar_message_center")
-        addChildViewController("DiscoverTableViewController", title: "发现", imageName: "tabbar_discover")
-        addChildViewController("ProfileTableViewController", title: "我", imageName: "tabbar_profile")
-
+        
         
     }
     
