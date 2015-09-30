@@ -12,8 +12,26 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // 先用 kvc 替换 tabbar
+        let tb = MainTabBar()
+        setValue(tb, forKeyPath: "tabBar")
+        
+        tb.composeButton.addTarget(self, action: "composeButtonClick", forControlEvents: UIControlEvents.TouchUpInside)
+        
         addChildViewControllers()
-        // Do any additional setup after loading the view.
+
+        print(tabBar.items)
+    }
+    
+    ///  点击中间按钮 按钮点击方法必须公开
+    func composeButtonClick() {
+        print(__FUNCTION__)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print(tabBar.items)
     }
 
     /// 添加所有的子控制器

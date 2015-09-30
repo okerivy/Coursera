@@ -11,6 +11,7 @@
 		7B8E46771BBAE0DC0081DCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */; };
 		7B8E46851BBAE0DC0081DCCB /* CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E46841BBAE0DC0081DCCB /* CourseraTests.swift */; };
 		7B8E46901BBAE0DC0081DCCB /* CourseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E468F1BBAE0DC0081DCCB /* CourseraUITests.swift */; };
+		7BBF6FA21BBBF36900ADD0BA /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBF6FA11BBBF36900ADD0BA /* MainTabBar.swift */; settings = {ASSET_TAGS = (); }; };
 		7BC09BFA1BBAF6EA003A4A0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC09BF91BBAF6EA003A4A0F /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7BC09BFC1BBAF71A003A4A0F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC09BFB1BBAF71A003A4A0F /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7BC09BFE1BBAF742003A4A0F /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC09BFD1BBAF742003A4A0F /* DiscoverTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -46,6 +47,7 @@
 		7B8E468B1BBAE0DC0081DCCB /* CourseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E468F1BBAE0DC0081DCCB /* CourseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraUITests.swift; sourceTree = "<group>"; };
 		7B8E46911BBAE0DC0081DCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBF6FA11BBBF36900ADD0BA /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		7BC09BF91BBAF6EA003A4A0F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BC09BFB1BBAF71A003A4A0F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		7BC09BFD1BBAF742003A4A0F /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				7BC09BF91BBAF6EA003A4A0F /* MainViewController.swift */,
+				7BBF6FA11BBBF36900ADD0BA /* MainTabBar.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			files = (
 				7BC09C021BBAF761003A4A0F /* ProfileTableViewController.swift in Sources */,
 				7BC09BFC1BBAF71A003A4A0F /* HomeTableViewController.swift in Sources */,
+				7BBF6FA21BBBF36900ADD0BA /* MainTabBar.swift in Sources */,
 				7BC09BFA1BBAF6EA003A4A0F /* MainViewController.swift in Sources */,
 				7BC09BFE1BBAF742003A4A0F /* DiscoverTableViewController.swift in Sources */,
 				7BC09C001BBAF751003A4A0F /* MessageTableViewController.swift in Sources */,
