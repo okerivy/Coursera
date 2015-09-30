@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B66C9361BBC28BA0046DAE6 /* MainVCSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B66C9351BBC28BA0046DAE6 /* MainVCSetting.json */; settings = {ASSET_TAGS = (); }; };
 		7B8E46701BBAE0DC0081DCCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E466F1BBAE0DC0081DCCB /* AppDelegate.swift */; };
 		7B8E46771BBAE0DC0081DCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */; };
 		7B8E46851BBAE0DC0081DCCB /* CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E46841BBAE0DC0081DCCB /* CourseraTests.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B66C9351BBC28BA0046DAE6 /* MainVCSetting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSetting.json; sourceTree = "<group>"; };
 		7B8E466C1BBAE0DC0081DCCB /* Coursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E466F1BBAE0DC0081DCCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8E46761BBAE0DC0081DCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B66C9341BBC28770046DAE6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7B66C9351BBC28BA0046DAE6 /* MainVCSetting.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7B8E46631BBAE0DB0081DCCB = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 		7BC09BF51BBAF5EC003A4A0F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7B66C9341BBC28770046DAE6 /* Resource */,
 				7BC09BF91BBAF6EA003A4A0F /* MainViewController.swift */,
 				7BBF6FA11BBBF36900ADD0BA /* MainTabBar.swift */,
 			);
@@ -309,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B66C9361BBC28BA0046DAE6 /* MainVCSetting.json in Resources */,
 				7B8E46771BBAE0DC0081DCCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
